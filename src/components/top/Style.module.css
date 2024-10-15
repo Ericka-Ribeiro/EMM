@@ -1,0 +1,83 @@
+body{
+    background-image: url(../img/background.png);
+    background-size: cover;
+}
+.cabecalho{
+    border: 1px solid rgb(30, 4, 4);
+    margin: 5% 5% 1% 5%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.header{
+   display: flex;
+   height: 400px;
+   text-align: center;
+}
+.informacoes{
+    background-color: white;
+    border-radius: 15px;
+    margin-right: 1%;
+    width: 55%;
+    margin-left: 5%;
+}
+
+.container4{
+    background-color: white;
+    border-radius: 15px;
+    width: 34%;
+}
+
+.container4 h1{
+    border: 1px solid white;
+    background-color: rgb(200, 63, 63);
+    margin: 0;
+    border-radius: 15px 15px 0 0;
+    padding: 2%;
+    color: white;
+}
+
+.cardVisual{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-between;
+   
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: white;
+    text-align: center;
+    margin-top: 1%;
+    border-radius: 15px;
+}
+.footer{
+    background-color: rgb(155, 155, 236);
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    align-items: center;
+}
+.footerImages {
+    display: flex;
+    padding: 2%;
+    gap: 20%;
+    justify-content: center;
+}
+.footerImages img{
+    width: 250px;
+}
+
+.Temperatura{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+
+.Temperatura img{
+    height: 200px;
+}
